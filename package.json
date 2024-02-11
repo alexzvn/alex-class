@@ -7,11 +7,22 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "drizzle:gen": "drizzle-kit generate:sqlite"
   },
   "dependencies": {
+    "@nuxt/ui": "latest",
+    "@sidebase/nuxt-auth": "^0.6.7",
+    "drizzle-orm": "^0.29.3",
+    "nanoid": "^5.0.5",
+    "next-auth": "4.22.5",
     "nuxt": "^3.10.1",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.5",
+    "@vueuse/nuxt": "latest",
+    "drizzle-kit": "^0.20.14"
   }
 }
